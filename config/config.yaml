@@ -41,15 +41,15 @@ platforms:
     - id: "cls-hot"
       name: "财联社热门"
     - id: "sspai"
-    name: "少数派"
+      name: "少数派"
     - id: "v2ex"
-    name: "V2EX"
+      name: "V2EX"
     - id: "github"
-    name: "GitHub"
+      name: "GitHub"
     - id: "hackernews"
-    name: "Hacker News"
+      name: "Hacker News"
     - id: "xueqiu"
-    name: "雪球"
+      name: "雪球"
 
 
 
