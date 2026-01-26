@@ -173,9 +173,7 @@ A股
 ChatGPT
 DeepSeek
 Sora
-# 下面这行稍微复杂点，是为了精准匹配英文单词 "AI"
-# (如果不这样写，可能会错误匹配到 "Email" 或 "Wait" 里的 ai)
-/\bAI\b/i => AI
+
 
 [医疗相关]
 分子诊断 
@@ -183,6 +181,27 @@ Sora
 IVD
 POCT
 医疗出海
+
+
+[English AI program]
+Sam Altman
+Jensen Huang
+Elon Musk
+Andrew Ng
+Yoshua Bengio
+Yann LeCun
+Fei-Fei Li
+Mark Zuckerberg
+Liang Wenfeng
+Demis Hassabis
+
+
+# 下面这行稍微复杂点，是为了精准匹配英文单词 "AI"
+# (如果不这样写，可能会错误匹配到 "Email" 或 "Wait" 里的 ai)
+/\bAI\b/i => AI
+
+
+
 # ═══════════════════════════════════════════════════════════════
 #                         企业与品牌
 # ═══════════════════════════════════════════════════════════════
