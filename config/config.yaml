@@ -86,27 +86,52 @@ rss:
   # - 正整数：覆盖全局设置，只推送此天数内的文章
   # - 0：禁用此频道的新鲜度过滤，推送所有文章
   feeds:
-    - id: "hacker-news"
-      name: "Hacker News"
-      url: "https://hnrss.org/frontpage"
-      # max_age_days: 1               # 示例：只推送1天内的文章
+    # ========== 英文医疗科技媒体 ==========
+    - id: "stat-news"
+      name: "STAT News"
+      url: "https://www.statnews.com/feed/"
 
-    - id: "ruanyifeng"
-      name: "阮一峰的网络日志"
-      url: "http://www.ruanyifeng.com/blog/atom.xml"
-      # max_age_days: 7               # 示例：推送7天内的文章（更新较慢的博客）
-    
-    - id: "yahoo-finance"
-      name: "雅虎财经"
-      url: "https://finance.yahoo.com/news/rssindex"
-      enabled: false                  # 禁用
+    - id: "stat-news-healthtech"
+      name: "STAT News - Health Tech"
+      url: "https://www.statnews.com/topic/health-tech/feed/"
 
-    # 自定义源示例
-    # - id: "custom-feed"
-    #   name: "自定义源"
-    #   url: "https://example.com/feed.xml"
-    #   enabled: false
-    #   max_age_days: 0               # 示例：禁用过滤，推送所有文章
+    - id: "medtech-dive"
+      name: "MedTech Dive"
+      url: "https://www.medtechdive.com/feeds/news/"
+
+    - id: "medcity-news"
+      name: "MedCity News"
+      url: "https://medcitynews.com/feed/"
+
+    - id: "genomeweb"
+      name: "GenomeWeb"
+      url: "https://www.genomeweb.com/section/rss/news"
+
+    - id: "360dx"
+      name: "360Dx"
+      url: "https://www.360dx.com/rss/news"
+
+    - id: "fierce-biotech-medtech"
+      name: "Fierce Biotech - MedTech"
+      url: "https://www.fiercebiotech.com/medtech/rss"
+
+    # ========== 中文医疗产业媒体 ==========
+    - id: "36kr"
+      name: "36氪"
+      url: "https://36kr.com/feed"
+
+    - id: "vcbeat-rsshub"
+      name: "动脉网（via RSSHub）"
+      url: "https://rsshub.app/vcbeat/latest"
+
+    # ========== 政策法规 ==========
+    - id: "fda-medical-devices"
+      name: "FDA - Medical Devices"
+      url: "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/medical-devices/rss.xml"
+
+    - id: "fda-press-releases"
+      name: "FDA - Press Releases"
+      url: "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/press-releases/rss.xml"
 
 
 # ===============================================================
